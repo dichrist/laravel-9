@@ -3,7 +3,7 @@
 @section('title', 'Listagem dos usuários')
 
 @section('content')
-    <h1>Listagem dos usuários (<a href="{{route('users.create')}}">+</a>)</h1>
+    <h1 class="text-2x1 font-semibold leading-tigh py-2">Listagem dos usuários (<a href="{{route('users.create')}}">+</a>)</h1>
 
     <form action="{{ route('users.index') }}" method="get">
         <input type="text" name="search" placeholder="Pesquisar">
